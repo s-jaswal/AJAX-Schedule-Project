@@ -1,6 +1,6 @@
 $(document).ready(function () {
     // Replace with your hosted JSON URL
-    const scheduleUrl = 'https://www.npoint.io/docs/e6010e69f8796e373a44'
+    const scheduleUrl = 'https://api.npoint.io/e6010e69f8796e373a44'
 
     // Bell schedule for a regular day
     const bellSchedule = {
