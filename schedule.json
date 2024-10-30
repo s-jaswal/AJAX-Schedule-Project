@@ -26,71 +26,70 @@
                 "F"
             ]
         },
-    },
-    {
-        "class": "Physical Education",
-        "teacher": "Mr. Frankel",
-        "room": "Gym",
-        "period": 3,
-        "days": [
-            "A",
-            "C",
-            "D",
-            "E",
-            "G"
-        ]
-    },
-    {
-        "class": "AP Computer Science A",
-        "teacher": "Mrs. Rehwinkel",
-        "room": "A234",
-        "period": 4,
-        "days": [
-            "B",
-            "C",
-            "D",
-            "F",
-            "G"
-        ]
-    },
-    {
-        "class": "AP Literature & Composition",
-        "teacher": "Mrs. Rivera",
-        "room": "A123",
-        "period": 5,
-        "days": [
-            "A",
-            "B",
-            "D",
-            "E",
-            "G"
-        ]
-    },
-    {
-        "class": "AP Government & Politics",
-        "teacher": "Mr. Yang",
-        "room": "A121",
-        "period": 6,
-        "days": [
-            "A",
-            "C",
-            "D",
-            "F",
-            "G"
-        ]
-    },
-    {
-        "class": "Applied Art I",
-        "teacher": "Mrs. Fraser",
-        "room": "D101",
-        "period": 7,
-        "days": [
-            "B",
-            "C",
-            "E",
-            "F",
-            "G"
-        ]
-    },
-]
+        {
+            "class": "Physical Education",
+            "teacher": "Mr. Frankel",
+            "room": "Gym",
+            "period": 3,
+            "days": [
+                "A",
+                "C",
+                "D",
+                "E",
+                "G"
+            ]
+        },
+        {
+            "class": "AP Computer Science A",
+            "teacher": "Mrs. Rehwinkel",
+            "room": "A234",
+            "period": 4,
+            "days": [
+                "B",
+                "C",
+                "D",
+                "F",
+                "G"
+            ]
+        },
+        {
+            "class": "AP Literature & Composition",
+            "teacher": "Mrs. Rivera",
+            "room": "A123",
+            "period": 5,
+            "days": [
+                "A",
+                "B",
+                "D",
+                "E",
+                "G"
+            ]
+        },
+        {
+            "class": "AP Government & Politics",
+            "teacher": "Mr. Yang",
+            "room": "A121",
+            "period": 6,
+            "days": [
+                "A",
+                "C",
+                "D",
+                "F",
+                "G"
+            ]
+        },
+        {
+            "class": "Applied Art I",
+            "teacher": "Mrs. Fraser",
+            "room": "D101",
+            "period": 7,
+            "days": [
+                "B",
+                "C",
+                "E",
+                "F",
+                "G"
+            ]
+        }
+    ]
 }
