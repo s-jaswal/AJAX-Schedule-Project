@@ -2,14 +2,6 @@ $(document).ready(function () {
     // Replace with your hosted JSON URL
     const scheduleUrl = 'https://api.npoint.io/e6010e69f8796e373a44'
 
-    // Bell schedule for a regular day
-    const bellSchedule = {
-        1: { start: '8:24 AM', end: '9:31 AM' },
-        2: { start: '9:36 AM', end: '10:43 AM' },
-        3: { start: '10:48 AM', end: '11:55 AM' },
-        4: { start: '12:41 PM', end: '1:48 PM' },
-        5: { start: '1:53 PM', end: '3:00 PM' }
-    }
 
     // When the "Show Schedule" button is clicked
     $('#submitDay').on('click', function () {
@@ -43,12 +35,10 @@ $(document).ready(function () {
                     // Display each class in a table row
                     daySchedule.forEach(classItem => {
                         const period = classItem.period
-                        const time = bellSchedule[period] // Get the start and end time for the period
 
                         $('#scheduleList').append(`
                               <tr>
                                   <td>${period}</td>
-                                  <td>${time.start} - ${time.end}</td>
                                   <td>${classItem.class}</td>
                                   <td>${classItem.teacher}</td>
                                   <td>${classItem.room}</td>
