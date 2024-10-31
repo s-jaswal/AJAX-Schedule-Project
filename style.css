@@ -1,12 +1,14 @@
 body {
-    background-image: url('');
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.h1 text-center {
-    font-size: large;
+h1 {
+    font-size: 50px;
     color: white;
 }
 
-.thead {
-    background-color: black;
+.schedule {
+    color: white;
 }
