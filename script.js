@@ -1,9 +1,7 @@
 $(document).ready(function () {
-    // Replace with your hosted JSON URL
     const scheduleUrl = 'https://api.npoint.io/e6010e69f8796e373a44'
 
 
-    // When the "Show Schedule" button is clicked
     $('#submitDay').on('click', function () {
         const selectedDay = $('#dayInput').val().toUpperCase()
 
