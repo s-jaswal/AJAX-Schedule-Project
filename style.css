@@ -1,7 +1,12 @@
 body {
-    background-image: url('background.jpg');
+    background-image: linear-gradient(to right, white, rgb(216, 60, 216));
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
+    min-height: 100vh;
+    /* Ensure it covers the entire viewport height */
+    margin: 0;
+    /* Remove any default margin */
 }
 
 h1 {
